@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box; 
+}
+
+body{
+    font-family: 'DM Sans', sans-serif ;
+}
+
+.display-flex{
+    display: flex;
+}
+
+.header{
+    background-color: #F9FFF2;
+    background-image: url('../assets/images/MaskGroup.png');
+    background-position: center bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    flex-direction: column;    
+}
+
+.box-content{  
+    width: 500px;
+    padding: 5px;
+    display: inline-block;
+    
+}
+.box-paragraph{
+    width: 500px;
+    display: inline-block;
+    
+}
+
+header div{
+    flex-direction: column ;
+}
+
+.header-content{   
+    text-align: center;  
+}
+
+
+.header button{
+    background-color: #410FF8;
+    color: white;
+    border: #410FF8;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+header nav img{
+    padding: 10px;
+}
+
+h1{
+    font-size: 300%;
+    margin-bottom: 0px; 
+}
+
+a{
+    color: gray;
+    text-decoration: none;
+    padding: 15px;
+}
+
+span{
+    color:#32BBA4;
+    font-weight: bold;
+}
+
+article{
+    border: 3px solid #F3F3F3;
+    border-radius: 5px;  
+    display: inline-block;
+    margin: 50px;
+    padding: 0px 25px;
+    
+}
+
+.button-white-card{
+    background-color: #410FF8;
+    color: white;
+    border: #410FF8;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+
+.anual-plan-cost{
+    color: #B0B0B0;
+    margin: 5px solid pink;
+}
+.plan-cost{
+   
+    margin: 0px;
+}
+.justify-content-around{
+    justify-content: space-around;
+}
+
+.align-items{
+    align-items: center;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
